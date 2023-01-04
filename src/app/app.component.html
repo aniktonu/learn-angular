@@ -1,0 +1,21 @@
+
+<input type="text" [(ngModel)]="someValue" />
+<input type="button" value="click" (click)="CallSomeLogic()"/>
+<br>
+<b>{{someValue}}</b>
+
+
+<h1> {{2+3}}</h1>
+
+<table>
+  <tr>
+    <td>
+      some values
+    </td>
+  </tr>
+  <tr *ngFor="let temp of someValues">
+    <td>
+    {{temp}}
+    </td>
+  </tr>
+</table>
